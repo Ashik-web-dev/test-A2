@@ -1,0 +1,772 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+.allura {
+  font-family: "Allura", cursive;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 0;
+}
+.Shape {
+  font-size: 150px;
+}
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.font-size-40 {
+  margin: 0;
+  line-height: 1;
+  font-size: 40px;
+  font-weight: 900;
+}
+.overlay-button p {
+  font-size: 11px;
+  margin: 0;
+  line-height: 0;
+}
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #111;
+}
+.bg-size {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Title and Subtitle Styles */
+h1,
+h2,
+h3 {
+  color: rgb(255, 255, 255);
+}
+
+p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+}
+.whait-p {
+  color: rgb(255, 255, 255);
+}
+
+.display-flex {
+  display: flex;
+}
+/* navber related styles */
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.nav-item {
+  list-style: none;
+  margin-left: 40px;
+  font-size: 1.1em;
+}
+.nav-link {
+  text-decoration: none;
+  color: azure;
+}
+.nav-title {
+  color: rgb(230, 83, 60);
+  font-size: 2.1em;
+  font-weight: 800px;
+}
+.navbar,
+.banner,
+.habit,
+.run {
+  max-width: 80%;
+  margin: 0 auto;
+}
+/* Hero Section */
+.hero-section {
+  background-color: #111;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0 20px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.hero-text {
+  margin-bottom: 20px;
+  margin-top: 98px;
+}
+
+.hero-content h1 {
+  color: rgb(255, 255, 255);
+
+  font-size: 78px;
+  font-weight: 900;
+}
+
+.hero-content p {
+  font-size: 1.3rem;
+  margin-top: 28px;
+  margin-bottom: 40px;
+}
+
+.cta-buttons {
+  margin-top: 28px;
+}
+
+.cta-buttons .btn {
+  padding: 15px 40px;
+  border-radius: 30px;
+  margin: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.primary-btn {
+  background: rgb(230, 83, 60);
+  color: white;
+}
+
+.primary-btn:hover {
+  background: #c35440;
+}
+
+.secondary-btn {
+  background: white;
+  color: rgb(230, 83, 60);
+}
+
+.secondary-btn:hover {
+  background: #f1f1f1;
+  color: #c35440;
+}
+
+/* hero Section */
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+.overlay-button {
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+
+  background: rgba(48, 48, 48, 0.54);
+  color: #333;
+  padding: 10px;
+
+  border-radius: 5px;
+}
+.button-top-right {
+  top: 120px;
+  right: -74px;
+}
+.button-bottom-left {
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.stylish-round {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #c35440;
+  margin-right: 10px;
+}
+/* Core Features Section */
+.core-features {
+  background-color: #111;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.core-features h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.feature-item {
+  text-align: center;
+}
+
+.feature-item h3 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Round Image */
+.round-image {
+  border-radius: 50%;
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* Run an Extra Mile Section */
+.run-extra-mile {
+  background-color: rgb(34, 34, 34);
+  color: white;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid black 0.2px;
+  border-radius: 20px;
+  margin-bottom: 15;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  width: 100%;
+  gap: 40px;
+}
+
+.text-section {
+  flex: 1;
+  text-align: left;
+}
+
+.text-section h2 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.text-section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.text-section .btn {
+  padding: 15px 30px;
+  background-color: rgb(230, 83, 60); /* Primary button color */
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.image-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-section img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Trainings and Exercises Section */
+.trainings-exercises {
+  background-color: #111;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.trainings-exercises h2 {
+  font-size: 2.5rem;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
+
+.trainings-exercises p {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 40px;
+}
+
+.exercises-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.exercise-item {
+  text-align: center;
+}
+
+.exercise-item img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.exercise-item h3 {
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+
+.exercise-item p {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.5;
+}
+/* BMI Calculator Section */
+
+.bmi-section {
+  background-color: #111;
+  color: white;
+  padding: 60px 20px;
+  background-color: #222;
+  margin-top: 40px;
+}
+
+.bmi-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bmi-table {
+  flex: 1;
+}
+
+.bmi-table h3 {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
+
+.bmi-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.bmi-table table th,
+.bmi-table table td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 12px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.bmi-table table th {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.bmi-input {
+  flex: 1;
+  padding: 20px;
+
+  border-radius: 10px;
+}
+
+.bmi-input h3 {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 10px;
+  display: block;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+}
+
+.btn.primary-btn {
+  padding: 12px 30px;
+  background-color: rgb(230, 83, 60);
+  color: white;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.bmi-result {
+  margin-top: 30px;
+}
+
+.bmi-result h3 {
+  font-size: 1.5rem;
+}
+
+.bmi-result p {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Meet Our Team Section */
+.meet-our-team {
+  background-color: #111;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.meet-our-team h2 {
+  font-size: 2.5rem;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
+
+.meet-our-team p {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 40px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+.team-grid h3 {
+  margin-top: 60%;
+  margin-right: 60%;
+}
+.team-grid p {
+  margin-right: 60%;
+}
+.team-member {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  height: 272px;
+  width: 326px;
+}
+
+.team-member p {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.5); /* 50% opacity for team member roles */
+  line-height: 1.5;
+}
+
+/* Footer Section */
+.footer {
+  background-color: #111;
+  padding: 40px 20px;
+  color: white;
+}
+
+.footer {
+  background-color: rgb(34, 34, 34);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-logo {
+  flex: 1;
+  text-align: left;
+  padding-right: 40px;
+}
+
+.footer-title {
+  font-size: 70px;
+  color: rgb(230, 83, 60);
+}
+.footer-logo h2 {
+  font-size: 2.8rem;
+  color: rgb(230, 83, 60);
+  margin-bottom: 10px;
+}
+
+.footer-logo p {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-links {
+  flex: 1;
+  text-align: left;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+/* optional section  */
+.testimonials {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #242424;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.testimonials h2 {
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(300px, 1fr)
+  ); /* Responsive grid */
+  gap: 20px;
+}
+
+.testimonial-item {
+  background-color: #222;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-item h4 {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2.8rem;
+  }
+  .image-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .image-container img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .cta-buttons .btn {
+    font-size: 1rem;
+    padding: 10px 30px;
+  }
+
+  .stats {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .core-features h2 {
+    font-size: 2rem;
+  }
+  .overlay-button p {
+    font-size: 10px;
+    margin: 10px;
+    line-height: 0;
+  }
+  .feature-item h3 {
+    font-size: 1.2rem;
+  }
+
+  .content-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text-section {
+    text-align: center;
+  }
+
+  .image-section img {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  .calculator-form {
+    grid-template-columns: 1fr;
+  }
+
+  .bmi-calculator h2 {
+    font-size: 2rem;
+  }
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .meet-our-team h2 {
+    font-size: 2rem;
+  }
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .team-member {
+    height: 180px;
+    width: 220px;
+  }
+
+  .team-member img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .team-member h3 {
+    font-size: 1.2rem;
+  }
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-logo,
+  .footer-links,
+  .footer-social {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-social a {
+    margin-right: 10px;
+  }
+  .bmi-wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .bmi-table,
+  .bmi-input {
+    flex: 1;
+    width: 100%;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-item {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  .hero-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-items {
+    display: flex;
+    flex-direction: column;
+  }
+  .font-size-40 {
+    font-size: Font weight 900 Font size 30.24px;
+  }
+  .button-top-right {
+    top: 120px;
+    right: -10px;
+  }
+  .cta-buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .cta-buttons .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .run-extra-mile .content-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .bmi-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .team-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .exercises-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+}
